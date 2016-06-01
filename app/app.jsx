@@ -17,7 +17,7 @@ $(document).foundation();
 ReactDOM.render(
 	<Router history={hashHistory}>
 		<Route path="/" component={Main}>
-			<Route path="Countdown" component={Countdown}/>
+			<Route path="countdown" component={Countdown}/>
 			<IndexRoute component={Timer}/>
 		</Route>
 	</Router>,
