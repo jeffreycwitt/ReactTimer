@@ -40,13 +40,6 @@ var Countdown = React.createClass({
 				this.setState({countdownStatus: "stopped"});
 			}
 		}, 1000);
-
-		// i think i added this myself 
-		// counter is working correctly without it
-		//this.setState({
-		//	countdownStatus: 'stopped'
-
-		//})
 	},
 	handleSetCountdown: function(seconds){
 		this.setState({
